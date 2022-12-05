@@ -1,0 +1,8 @@
+{%- for pet in animals.my_pets %}
+Type: {{ pet.species }}
+Name: {{ pet.name }}
+{%- endfor %}
+{%- for star in animals.movie_stars %}
+Type: {{ star.species }}
+Name: {{ star.name | upper }}
+{%- endfor %}

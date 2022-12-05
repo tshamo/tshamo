@@ -1,0 +1,11 @@
+{
+   "seriesId":12345,
+   "serviceVariables":[
+   ],
+   "tagVariables":[
+      {
+         "id":100,
+         "variable":"testId"
+      }
+   }
+}

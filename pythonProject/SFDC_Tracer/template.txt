@@ -1,0 +1,41 @@
+{
+            "seriesId": 0,
+            "seriesName": "root",
+            "metricType": "avg",
+            "frequencyMin": 10,
+            "lookbackMin": 10,
+            "delayMin": 10,
+            "argusMetric": {
+                "metricName": "root",
+                "service": "tracer",
+                "subService": "",
+                "dataCenter": "PRD",
+                "superPod": "NONE",
+                "pod": "none",
+                "tags": {
+                    "pod": "eu16",
+                    "seriesName": "root",
+                    "testId": "43901",
+                    "step": "8",
+                    "Location": "VIR"
+                }
+            },
+            "tagVariables": [
+                {
+                    "name": "Location",
+                    "value": "VIR"
+                },
+                {
+                    "name": "testId",
+                    "value": "43901"
+                },
+                {
+                    "name": "step",
+                    "value": "8"
+                },
+                {
+                    "name": "pod",
+                    "value": "eu16"
+                }
+            ]
+ }

@@ -1,0 +1,11 @@
+animals:
+  my_pets:
+    - species: dog
+      name: Luna
+    - species: cat
+      name: Mia
+  movie_stars:
+    - species: lion
+      name: Simba
+    - species: fish
+      name: Nemo

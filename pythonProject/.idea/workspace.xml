@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="caf2c325-b4a8-4863-82b5-efb6f5248ce7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../PythonWebSite/.idea/PythonWebSite.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/pythonProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SFDC_Derived_Jobs/derived_backfill.update.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SFDC_Derived_Jobs/derived_job_create.post.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SFDC_Derived_Jobs/test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SFDC_Derived_Jobs/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SFDC_Tracer/TraceMetrics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SFDC_Tracer/delete.pub_metrics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SFDC_Tracer/get.ids.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SFDC_Tracer/get.request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SFDC_Tracer/get.test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SFDC_Tracer/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SFDC_Tracer/matplot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SFDC_Tracer/post.ap.pod.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SFDC_Tracer/post.ap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SFDC_Tracer/post.cs.pod.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SFDC_Tracer/post.cs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SFDC_Tracer/post.one_request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SFDC_Tracer/post.pods.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SFDC_Tracer/post.request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SFDC_Tracer/post.temp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SFDC_Tracer/post.test.all.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SFDC_Tracer/post.wip.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SFDC_Tracer/posting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SFDC_Tracer/prompt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SFDC_Tracer/prompt_yes_no.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SFDC_Tracer/template.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SFDC_Tracer/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dict_to_json.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/get.tracer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input2.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input3.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jinj2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json_to_dict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn_date.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/req.get.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/req.post.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/req2.get.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sourcedata_dict.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sourcedata_json.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template1.j2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template2.j2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template3.j2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProjectAndy/learn_python/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProjectAndy/learn_python/.idea/learn_python.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProjectAndy/learn_python/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProjectAndy/learn_python/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProjectAndy/learn_python/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pythonProjectAndy/learn_python/get.tracer.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2HgzVKS27hTb0YalCNEAT8jL9xf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/taulant.shamo/PycharmProjects/pythonProject/SFDC_Derived_Jobs&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/SFDC_Derived_Jobs" />
+      <recent name="$PROJECT_DIR$/SFDC_Tracer" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/SFDC_Derived_Jobs" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="caf2c325-b4a8-4863-82b5-efb6f5248ce7" name="Changes" comment="" />
+      <created>1668721537656</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668721537656</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SFDC_Tracer/post.pods.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

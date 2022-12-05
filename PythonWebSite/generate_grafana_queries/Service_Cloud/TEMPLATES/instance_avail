@@ -1,0 +1,26 @@
+ALIASBYTAG(SCALE(FILL(
+    GROUPBYTAG(
+      CULL_BELOW(
+        FILL(
+          GROUPBYTAG(
+            GROUPBYTAG(
+              CULL_BELOW(
+                PROPAGATE($start:$end:synthetics.*.AGG.all:AVAILABILITY_METRIC_NAME{location=*,podName=$instance,testCaseId=TESTCASEID,ownerId=1957,level=testCase}:max:10m-max,#10m#),#-0.5#,#value#
+              ),
+              #podName#,#COUNT#
+            ),
+            GROUPBYTAG(
+              PROPAGATE($start:$end:synthetics.*.AGG.all:AVAILABILITY_METRIC_NAME{location=*,podName=$instance,testCaseId=TESTCASEID,ownerId=1957,level=testCase}:max:10m-max,#10m#),#podName#,#COUNT#
+            ),
+            #podName#,#DIVIDE#,#UNION#,#0#
+          ),
+          #10m#,#0m#,#1#
+        ),
+        #0.01#,#value#
+      ),
+      #podName#,#COUNT#
+    ),
+    #10m#,#0m#,#0#
+  )
+, #100#),#podName#)
+

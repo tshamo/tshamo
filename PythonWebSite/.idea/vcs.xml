@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Flaskintroduction" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Flaskintroduction/env" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Learn Python - Andy" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Learn Python - Andy/brave" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Learn Python - Andy/cassandra-zipkin-tracing" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Learn Python - Andy/newtest" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Learn Python - Andy/reads" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Learn Python - Andy/skywalking" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Learn_Python_Andy" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Learn_Python_Andy/brave" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Learn_Python_Andy/cassandra-zipkin-tracing" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Learn_Python_Andy/newtest" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Learn_Python_Andy/reads" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Learn_Python_Andy/skywalking" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/env" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/pythonProject" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/pythonProject/brave" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/pythonProject/cassandra-zipkin-tracing" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/pythonProject/newtest" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/pythonProject/reads" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/pythonProject/skywalking" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/srcore" vcs="Git" />
+  </component>
+</project>

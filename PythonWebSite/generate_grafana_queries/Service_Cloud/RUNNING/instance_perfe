@@ -1,0 +1,1 @@
+ALIASBYTAG($start:$end:synthetics.*.AGG.all:kaiju_CUJ__-__CRM__-__Post__update__to__case_performance{location=*,podName=$instance,testCaseId=33101,ownerId=1957,level=testCase}:avg:10m-avg,#location#)

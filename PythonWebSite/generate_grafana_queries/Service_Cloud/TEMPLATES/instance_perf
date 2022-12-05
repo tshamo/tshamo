@@ -1,0 +1,1 @@
+ALIASBYTAG($start:$end:synthetics.*.AGG.all:PERFORMANCE_METRIC_NAME{location=*,podName=$instance,testCaseId=TESTCASEID,ownerId=1957,level=testCase}:avg:10m-avg,#location#)

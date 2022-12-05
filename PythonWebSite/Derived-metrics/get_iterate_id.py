@@ -1,0 +1,31 @@
+import requests
+import json
+
+headers  = {"content-type": "application/json","Authorization": "Bearer eyJ2ZXJzaW9uIjoiMC4xMSIsImFsZyI6IkhTNTEyIn0.eyJpc3MiOiJtb25leC5hcmd1cy5tb25pdG9yaW5nLmF3cy1lc3ZjMS11c2Vhc3QyLmF3cy5zZmRjLmNsIiwiaWF0IjoxNjU3Mjk2ODcyLCJleHAiOjE2NTczNDAwNzIsInN1YiI6InRhdWxhbnQuc2hhbW8iLCJ0eXBlIjoiQUNDRVNTIiwiZW1haWwiOiJ0YXVsYW50LnNoYW1vQHNhbGVzZm9yY2UuY29tIiwicHJlZmVycmVkX3VzZXJuYW1lIjoidGF1bGFudC5zaGFtbyIsInVzZXJncm91cCI6Ilt7XCJ1c2VyRGVmYXVsdEdyb3VwR3VpZFwiOlwiXCIsXCJncm91cEd1aWRcIjpcIjMyNjZiZGQ1LWM1ZmEtNGM5Zi05MjNlLTJmN2UyYTc1NzAzNVwifSx7XCJ1c2VyRGVmYXVsdEdyb3VwR3VpZFwiOlwiXCIsXCJncm91cEd1aWRcIjpcIjY4MjI3MTQyLTRhZGUtNGJhMS1iYmE1LTdkZDdkODQyYTNhMlwifSx7XCJ1c2VyRGVmYXVsdEdyb3VwR3VpZFwiOlwiXCIsXCJncm91cEd1aWRcIjpcIjU0ZGYyMGJlLWYyMTEtNDc4Ni1iMjlhLTU3ZjRjZWRiMDhiN1wifSx7XCJ1c2VyRGVmYXVsdEdyb3VwR3VpZFwiOlwiXCIsXCJncm91cEd1aWRcIjpcIjhmYzY4ZTY1LTRlNTgtNGY5OC04MGFlLTAxNDExMmVkZmE5ZVwifSx7XCJ1c2VyRGVmYXVsdEdyb3VwR3VpZFwiOlwiXCIsXCJncm91cEd1aWRcIjpcIjM5OWE3OTA3LTg5YzUtNGRlNC1iYzEzLTUyNzBiMWQ3ZGU0YVwifSx7XCJ1c2VyRGVmYXVsdEdyb3VwR3VpZFwiOlwiXCIsXCJncm91cEd1aWRcIjpcIjczNGE2Yzg3LTI3YTctNDNmMi04N2FjLTQ3Zjg0YzFlYWRhMlwifSx7XCJ1c2VyRGVmYXVsdEdyb3VwR3VpZFwiOlwiXCIsXCJncm91cEd1aWRcIjpcIjAwZjgxOWM3LTQxMTItNDNjYS05Njg2LWExZWZkYzZlMDhmMlwifSx7XCJ1c2VyRGVmYXVsdEdyb3VwR3VpZFwiOlwiXCIsXCJncm91cEd1aWRcIjpcIjk5OGEyNzFhLTJmZmQtNDM4YS1hNzYwLTY1ODhmZWI1Mjk1NlwifSx7XCJ1c2VyRGVmYXVsdEdyb3VwR3VpZFwiOlwiXCIsXCJncm91cEd1aWRcIjpcIjIwOWM2YjkyLWVmNDEtNDlkOC1iYmQ2LTI0NmM2MmJkNGI3ZlwifSx7XCJ1c2VyRGVmYXVsdEdyb3VwR3VpZFwiOlwiXCIsXCJncm91cEd1aWRcIjpcIjI2NGZiMjhiLTViNzItNDkzMi05MjYzLThiYmMxOGZhYWRkMlwifSx7XCJ1c2VyRGVmYXVsdEdyb3VwR3VpZFwiOlwiXCIsXCJncm91cEd1aWRcIjpcIjA0ODI5NjRkLTU5NTUtNDZjYy1iZmM4LWI0ZmMxYjU5NDQ1ZlwifV0ifQ.jnX1BvlEs82nqCPRKB2W2qDIgAxG-DBvKI3D0OQRuOhFIO7Nj9IW40-YGCz-5WifN0MVVJzjzGxYrJirUfw92w"}
+payload = {"derivativeIds": ["63647637"],"startTimestamp": "1653561010000","endTimestamp": "1653568210000"}
+
+url = 'https://argus-ws.argus.monitoring.aws-esvc1-useast2.aws.sfdc.cl/argusws/derivatives'
+#url = 'https://monitoring-api.salesforce.com/argusws/derivatives/backfill'
+
+r = requests.get(url, headers=headers)
+#r = requests.put(url, json=payload, headers=headers)
+
+json_data = r.json()
+
+l = []
+for key in json_data:
+    print(key['id'],key['ownerName'],key['name'])
+    l.append(key['id'])
+    ids = key['id']
+    new_url = str(url)+str(ids)
+    nr = requests.get(new_url, headers=headers)
+
+
+
+jsonString = json.dumps(json_data, indent=4)
+print(jsonString)
+
+print(l)
+#print(nr.text)
+
+

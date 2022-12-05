@@ -1,0 +1,30 @@
+ALIASBYTAG(
+  SCALE(
+    FILL(
+      GROUPBYTAG(
+        CULL_BELOW(
+          FILL(
+            GROUPBYTAG(
+              GROUPBYTAG(
+                CULL_BELOW(
+                  $start:$end:synthetics.*.AGG.all:kaiju_CUJ__-__CRM__-__Post__update__to__case_availability{location=*,substrate=*,podName=$instance,level=testCase,testCaseId=33101,service_cloud=Service_Cloud}:avg:10m-avg,#-0.5#,#value#
+                ),
+                #location#,#COUNT#
+              ),
+              GROUPBYTAG(
+                $start:$end:synthetics.*.AGG.all:kaiju_CUJ__-__CRM__-__Post__update__to__case_availability{location=*,substrate=*,podName=$instance,level=testCase,testCaseId=33101,service_cloud=Service_Cloud}:avg:10m-avg,#location#,#COUNT#
+              ),
+              #location#,#DIVIDE#,#UNION#,#0#
+            ),
+            #10m#,#0m#,#1#
+          ),
+          #0.01#,#value#
+        ),
+        #location#,#COUNT#
+      ),
+      #10m#,#0m#,#0#
+    ),
+    #100#
+  ),
+  #location#
+)
