@@ -1,11 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="caf2c325-b4a8-4863-82b5-efb6f5248ce7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/JAVA_JS/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SFDC_Tracer/post.all-pods.py" afterDir="false" />
+    <list default="true" id="caf2c325-b4a8-4863-82b5-efb6f5248ce7" name="Changes" comment="new files added">
+      <change afterPath="$PROJECT_DIR$/SFDC_Tracer/get.all.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SFDC_Tracer/get_or_delete.byId.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SFDC_Tracer/pod.usa12.steps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SFDC_Tracer/post.wip2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SFDC_Tracer/post.wip3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SFDC_Tracer/testGetIds.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SFDC_Tracer/wipMethods.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SFDC_Tracer/wipMethodsTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Demo" beforeDir="false" afterPath="$PROJECT_DIR$/../Demo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonWebSite/Flaskintroduction" beforeDir="false" afterPath="$PROJECT_DIR$/../PythonWebSite/Flaskintroduction" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonWebSite/Learn_Python_Andy" beforeDir="false" afterPath="$PROJECT_DIR$/../PythonWebSite/Learn_Python_Andy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SFDC_Tracer/delete.pub_metrics.py" beforeDir="false" afterPath="$PROJECT_DIR$/SFDC_Tracer/delete.pub_metrics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SFDC_Tracer/get.test.py" beforeDir="false" afterPath="$PROJECT_DIR$/SFDC_Tracer/get.test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SFDC_Tracer/post.all-pods.py" beforeDir="false" afterPath="$PROJECT_DIR$/SFDC_Tracer/post.all-pods.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SFDC_Tracer/post.ap.py" beforeDir="false" afterPath="$PROJECT_DIR$/SFDC_Tracer/post.ap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SFDC_Tracer/post.wip.py" beforeDir="false" afterPath="$PROJECT_DIR$/SFDC_Tracer/post.wip.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +104,21 @@
       <option name="presentableId" value="Default" />
       <updated>1668721537656</updated>
     </task>
+    <task id="LOCAL-00001" summary="new files added">
+      <created>1670514065156</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670514065156</updated>
+    </task>
+    <task id="LOCAL-00002" summary="new files added">
+      <created>1670514081646</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670514081646</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -106,6 +134,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="new files added" />
+    <option name="LAST_COMMIT_MESSAGE" value="new files added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

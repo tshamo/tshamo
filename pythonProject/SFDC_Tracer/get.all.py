@@ -4,27 +4,18 @@ headers = {"Authorization": "eyJ2ZXJzaW9uIjoiMC4xMS4xIiwiYWxnIjoiUlMyNTYifQ.eyJp
 
 transactionId=1445340
 
-endpoint = f'https://tracer-api.sfproxy.monitoring.aws-esvc1-useast2.aws.sfdc.cl/tracer/api/v1/transactionsquery/{transactionId}/publish-metrics'
+endpoint = f'https://tracer-api.sfproxy.monitoring.aws-esvc1-useast2.aws.sfdc.cl/tracer/api/v1/transactionsquery/{transactionId}/publish-metrics/69852'
 
 r = requests.get(endpoint, headers=headers)
 r_dict = r.json()
 
-publishMetrics = r_dict["publishMetrics"]
+seriesId = r_dict["seriesId"]
+publishMetricId = r_dict["publishMetricId"]
+seriesName = r_dict["seriesName"]
+argusMetric = r_dict["argusMetric"]
+tags = argusMetric["tags"]
+pod = tags["pod"]
 
-for i in publishMetrics:
-    seriesId = i["seriesId"]
-    publishMetricId = i["publishMetricId"]
-    seriesName = i["seriesName"]
-    argusMetric = i["argusMetric"]
-    tags = argusMetric["tags"]
-    pod = tags["pod"]
-    #step = tags["step"]
-    if "step" in tags and seriesName == "http_avg":
-        #print(f'publishMetricId: {publishMetricId}, seriesId: {seriesId}, seriesName: {seriesName}, pod: {pod}, step: {step}')
-        print(f'tags: {tags}, publishMetricId: {publishMetricId}')
-        #delendpoint = f'https://tracer-api.sfproxy.monitoring.aws-esvc1-useast2.aws.sfdc.cl/tracer/api/v1/transactionsquery/{transactionId}/publish-metrics/{publishMetricId}'
-        #r = requests.delete(delendpoint, headers=headers)
-        #print(r.status_code, publishMetricId, "deleted")
-
-    else:
-        continue
+print(r_dict)
+print("\n")
+print(f'publishMetricId: {publishMetricId}, seriesId: {seriesId}, seriesName: {seriesName}, pod: {pod}')

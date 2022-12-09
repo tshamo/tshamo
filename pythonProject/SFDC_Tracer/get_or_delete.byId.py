@@ -11,7 +11,9 @@ r_dict = r.json()
 
 publishMetrics = r_dict["publishMetrics"]
 
+count=0
 for i in publishMetrics:
+
     seriesId = i["seriesId"]
     publishMetricId = i["publishMetricId"]
     seriesName = i["seriesName"]
@@ -19,9 +21,12 @@ for i in publishMetrics:
     tags = argusMetric["tags"]
     pod = tags["pod"]
     #step = tags["step"]
-    if "step" in tags and seriesName == "http_avg":
+    #if "step" in tags and seriesName == "db-sql":
+    if pod == "ap9":
+        count += 1
+        print(count)
         #print(f'publishMetricId: {publishMetricId}, seriesId: {seriesId}, seriesName: {seriesName}, pod: {pod}, step: {step}')
-        print(f'tags: {tags}, publishMetricId: {publishMetricId}')
+        print(f'tags: {tags}, publishMetricId: {publishMetricId}, seriesId: {seriesId}')
         #delendpoint = f'https://tracer-api.sfproxy.monitoring.aws-esvc1-useast2.aws.sfdc.cl/tracer/api/v1/transactionsquery/{transactionId}/publish-metrics/{publishMetricId}'
         #r = requests.delete(delendpoint, headers=headers)
         #print(r.status_code, publishMetricId, "deleted")
