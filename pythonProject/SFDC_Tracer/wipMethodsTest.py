@@ -28,10 +28,6 @@ def trace_posting(transactionId, headers, json_payload):
 #    print(r.headers)
 #    print(r.json)
 
-def printMSG(seriesName, seriesId, transactionId):
-    print()
-    print(f'You entered:\nseriesName: {seriesName}\nseriesId is: {seriesId}\ntransactionId is:{ transactionId}')
-    print()
 
 def setDefaults(seriesName,transactionId):
     if seriesName == "root":

@@ -59,11 +59,6 @@ def setDefaults(seriesName,transactionId):
         exit()
 
 
-def print_msg(json_payload):
-    print(json_payload)
-    print("+++++++++++++++++++++++++")
-
-
 def parseJSON(seriesId, seriesName, metricName, transactionId):
     json_payload = {
         "seriesId": seriesId,
@@ -89,24 +84,19 @@ def parseJSON(seriesId, seriesName, metricName, transactionId):
         },
         "tagVariables": [
             {
-                "id": 2866917,
-                "name": "step",
-                "value": "1"
+                "id": 2860835,
+                "name": "pod",
+                "value": "ap11"
             },
             {
-                "id": 2866914,
+                "id": 2860833,
                 "name": "Location",
-                "value": "VIR"
+                "value": "TYO"
             },
             {
-                "id": 2866915,
+                "id": 2860834,
                 "name": "testId",
                 "value": "43901"
-            },
-            {
-                "id": 2866916,
-                "name": "pod",
-                "value": "usa1"
             }
         ],
         "argusExpression": "-1h:tracer.PRD.NONE.none:tracer_http_resp_avg{pod=ap11,seriesName=http_resp,testId=43901,transactionId=1435693,Location=TYO}:avg:1m-avg",
@@ -116,33 +106,4 @@ def parseJSON(seriesId, seriesName, metricName, transactionId):
     del json_payload['argusExpression']
     del json_payload['monexVariable']
 
-    print("This will be your json payload file\n----------------------------------------")
-
     return json_payload
-
-## WIP ##
-def generatePayload(pod_list, metricName, locations_list, json_payload, input_list, transactionId):
-    for metric in input_list:
-        metricName = metric
-        seriesName = metric
-        seriesId = setDefaults(seriesName, transactionId)
-        json_payload = parseJSON(seriesId, seriesName, metricName, transactionId)
-        print(json_payload)
-        argusMetric = json_payload['argusMetric']
-
-        for pod in pod_list:
-            json_payload['argusMetric']['tags']['pod']=pod
-            json_payload['tagVariables'][3]['value']=pod
-            #print(pod)
-            for location in locations_list:
-                json_payload['argusMetric']['tags']['Location'] = location
-                json_payload['tagVariables'][1]['value'] = location
-                print(pod, location, metricName)
-
-                for step in locations_list:
-                    json_payload['argusMetric']['tags']['Location'] = location
-                    json_payload['tagVariables'][1]['value'] = location
-                    print(pod, location, metricName)
-
-                return pod, location, metricName
-            #trace_posting(transactionId, headers, json_payload)
